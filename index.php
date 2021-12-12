@@ -120,7 +120,7 @@
     
     <footer>
         <section class="formulario">
-            <form action="">
+            <form method="post" action="novo_email.php">
                 <h1>Deseja receber promoções em seu email?</h1> 
                     <div id="formulario-nome">
                         <input type="text" name="name" placeholder="Seu nome...">    
