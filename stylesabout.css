@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family = Estônia & display = swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: swap;
+    font-size: 20px;
+    color: #fff;
+}
+
+body {
+    width: 100%;
+    display: inline-block;
+    font-family: swap;
+    background: #16384c;
+    color:rgb(0, 0, 0)
+}
+
+/* Container da barra de navegação */
+.navigation {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Logotipo */
+.logo {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    padding-left: 0;
+
+}
+/* Colunas da barra de navegação */
+.row {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+/* content das colunas/ navegação */
+.row div {
+    padding: 0;
+    border: 1px solid white(77, 46, 189);
+    border-radius: 5px;
+    text-align: initial;
+    transition: background-color 1s;
+}
+/* Primeira coluna da barra de nav */
+.col-1 {
+    width: 70%;
+}
+
+/* Segunda col da barra de nav */
+.col-2 {
+    width: 30%;
+    margin-top: 21px;
+}
+/* Content da segunda col */
+.col-2 ul li {
+    display: inline;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 12px;
+    position: relative;
+    
+}
+.col-2 a {
+    display: inline-block;
+    float: none;
+    text-decoration: none;
+    color: #1211b1;
+    padding-top: 12px;
+}
+
+.titles {
+    padding: 0px;
+}
+.titles h1 {
+    font-family: swap;
+    color: #fff;
+    text-align: center;
+}
+
+.about-hotel {
+    font-family: swap;
+    font-size: 24px;
+    color: #fff;
+    height: 32px;
+    margin-left: 3%;
+}
+.content-about {
+    width: 100%;
+    margin-top: 64px;
+}
+.row-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.row-content div {
+    padding: 3%;
+    border: 1px solid white(77, 46, 189);
+    border-radius: 5px;
+    text-align: initial;
+    transition: background-color 1s;
+}
+.col-1_content {
+    width: 60%;
+}
+
+.col-2_content {
+    width: 40%;
+}
+.text-about {
+    width: 700px;
+    height: 394px;
+    background-color: #fff;
+    border-radius: 42px;
+    padding-top: 2%;
+}
+.text-about p {
+    text-align: justify;
+    width: 100%;
+    padding: 20px;
+    align-content: center;
+    font-style: italic;
+    color: black;
+}
+
+.row-about {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.founders {
+    width: 100%;
+    padding-top: 0%;
+    margin: 3%;
+}
+
+.founders-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.row-content div {
+    padding: 3%;
+    border: 1px solid white(77, 46, 189);
+    border-radius: 5px;
+    text-align: initial;
+    transition: background-color 1s;
+}
+.col-1_founders {
+    width: 50%;
+}
+
+.col-2_founders {
+    width: 50%;
+}
+.img-founders {
+    height: 250px;
+    border-radius: 12px;
+}
+
+.img-founders#eduardo {
+    align-content: left;
+}
+.img-founders#luciano {
+    align-content: right;
+}
+
